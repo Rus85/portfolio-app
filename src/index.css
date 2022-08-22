@@ -64,6 +64,7 @@ body {
   font-family: "Poppins Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #141e30, #243b55);
 }
 
 code {
@@ -105,7 +106,7 @@ body ::-webkit-scrollbar-thumb {
   color: var(--white);
   border: 2px solid linen;
   font-size: 16px;
-  background-color: #1f2235;
+  background-color: #5F9EA0;
 }
 
 /* @media only screen and (max-width: 414px) {
@@ -142,3 +143,4 @@ body ::-webkit-scrollbar-thumb {
   transform: translateY(80px);
   transition: all 0.8s ease;
 }
+

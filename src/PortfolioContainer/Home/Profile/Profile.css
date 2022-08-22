@@ -5,6 +5,7 @@
     justify-content: center;
     height: 10%;
     min-height: fit-content;
+    margin-top: 50px;
 }
 
 .profile-parent {
@@ -33,7 +34,7 @@
 }
 
 .highlighted-text {
-    color: midnightblue;
+    color: #fff;
 }
 
 .profile-role-tagline {

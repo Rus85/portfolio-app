@@ -1,0 +1,137 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    /* background: #1f2235; */
+}
+
+.form-container div {
+    margin: 50px;
+}
+
+.form-info h2,
+h3 {
+    font-family: 'Roboto Regular';
+    color: #fff;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 430px;
+    padding: 40px;
+    background: #191919;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: rgb(99, 99, 99) 0px 20px 30px -10px;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.box input[type="text"],
+.box input[type="number"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: 'Roboto Regular';
+}
+
+.box input[type="text"]:focus,
+.box input[type="number"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-family: 'Roboto Regular';
+}
+
+.box button[type="submit"]:hover {
+    background: #2ecc71;
+
+}
+
+.error {
+    display: block;
+    font-family: 'Roboto Regular';
+    color: #fff;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.swal2-title {
+    font-family: 'Roboto Regular';
+}
+
+.swal2-html-container {
+    font-family: 'Roboto Regular';
+}
+
+@media (max-width: 1110px) {
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .form-container div {
+        margin: 30px;
+    }
+
+}
+
+@media (max-width: 810px) {
+
+    .form-info h2,
+    h3 {
+        font-size: 24px;
+    }
+
+    .box {
+        width: 340px;
+        height: 400px;
+    }
+}
